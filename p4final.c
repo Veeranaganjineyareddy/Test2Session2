@@ -31,3 +31,9 @@ void output(int n, int c)
 }
 int main()
 {
+  int n,c;
+  n=input();
+  c=find_fibo(n);
+  output(n,c);
+  return 0;
+}
